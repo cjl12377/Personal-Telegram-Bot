@@ -36,3 +36,11 @@ To modify this into your own, here are the steps:
 3. Fill in **Telegram token** and **bot name** in **chatbot_proper.py**
 
 4. Bot is setup and should work. Start it locally by running chatbot_proper.py in Terminal. Then, send your first input message on Telegram and you should get a response according to your intens.json.
+
+The bot is setup but is now only running on local server, meaning you have to keep the script running on your laptop for it to work.
+
+Next step, deploying on an online server like AWS so it will always be accessible. I haven't done that yet but you can check out how to online. Will update once I do it.
+
+This has been a personal project starting from 0 knowledge of coding and python. Thus, the arguments are less than "pythonic" and I'm sure can be done better. Any suggested improvements would be appreciated. I haven't found something like this online so its available here.
+
+
