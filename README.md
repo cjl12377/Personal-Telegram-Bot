@@ -37,7 +37,10 @@ To modify this into your own, here are the steps:
 
 4. Bot is setup and should work. Start it locally by running chatbot_proper.py in Terminal. Then, send your first input message on Telegram and you should get a response according to your intens.json.
 
-The bot is setup but is now only running on local server, meaning you have to keep the script running on your laptop for it to work.
+![Example use](sc.png)
+
+
+The bot is setup but is still only running on your local server, meaning you have to keep the script running on your laptop for it to work.
 
 Next step, deploying on an online server like AWS so it will always be accessible. I haven't done that yet but you can check out how to online. Will update once I do it.
 
