@@ -1,16 +1,17 @@
 # Personal-Telegram-Bot
-This is a Transactional Chatbot built with Python and integrates with Telegram.
+This is a Transactional Telegram Chatbot built with Python.
 
 This was built using 2 tutorials:
 1. https://www.codementor.io/@garethdwyer/building-a-telegram-bot-using-python-part-1-goi5fncay
 2. https://github.com/python-engineer/pytorch-chatbot
-So thank you very much to @garethdwyer and Python Engineer! Everything that works here is credit to them, anything that doesn't is me
+So thank you very much to @garethdwyer and Python Engineer! Everything that works here is credit to them, anything that doesn't is me.
 
 
 This bot allows you to create your own transactional chatbot on Telegram using Python.
 
 
 1.  How does the bot work?
+This graph is in mermaid. If you don't have the browser plugin need to view it, copy-paste the below code to this site for viewing: https://mermaid-js.github.io/mermaid-live-editor/
 ```mermaid
 graph LR
  A[User sends message on Telegram] --> B[Get Json from Telegram API] --> C[Process Json to get latest message] --> F
@@ -32,6 +33,6 @@ To modify this into your own, here are the steps:
 2. Get your telegram bot api token using Botfather
 - https://www.siteguarding.com/en/how-to-get-telegram-bot-api-token
 
-3. Fill in Telegram token and bot name in chatbot_proper.py
+3. Fill in **Telegram token** and **bot name** in **chatbot_proper.py**
 
-4. Bot is setup and should work. Start it locally by running chatbot_proper.py on Terminal. Then, send your first input message on Telegram and you should get a response according to your intens.json.
+4. Bot is setup and should work. Start it locally by running chatbot_proper.py in Terminal. Then, send your first input message on Telegram and you should get a response according to your intens.json.
