@@ -18,6 +18,6 @@
          "patterns": ["what is your name", "what should I call you", "whats your name?"],
          "responses": ["You can call me John.", "I'm John!"],
          "context_set": ""
-        },
+        }
    ]
 }
